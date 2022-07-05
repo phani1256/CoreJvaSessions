@@ -1,7 +1,7 @@
 package StringSessions;
 
 public class StringExamples {
-    static  String s1="Naveen";
+      static String s1="Naveen";
     static String s2="I love my country";
 
     static  String s3=new String("India is my country");
@@ -10,7 +10,7 @@ public class StringExamples {
     static  String lastName="chandra";
     static  String fullName;
     public static void main(String[] args) {
-        System.out.println(s1.length());
+        /*System.out.println(s1.length());
         System.out.println(s2.length());
         System.out.println(s1.toLowerCase());
         int len=s1.length();
@@ -20,7 +20,26 @@ public class StringExamples {
         //fullName=firstName+lastName;
         fullName=firstName.concat(lastName);
         System.out.println(fullName);
-        System.out.println("Full name of the string is :"+fullName);
+        System.out.println("Full name of the string is :"+fullName);*/
+
+        String s1="My name is Naveen";
+        String s2="My name is Naveen";
+        System.out.println(s1==s2);
+        String s3=new String("My name is Naveen");
+        String s4=new String("my name is naveen");
+        /*System.out.println(s3==s4);
+        System.out.println(s3.equals(s4));
+        System.out.println(s3.equalsIgnoreCase(s4));*/
+
+        System.out.println(s1.indexOf("Naveen"));
+        System.out.println(s1.indexOf('e'));
+        int position=s1.indexOf('e');
+        System.out.println(position);
+        int startposition=s1.indexOf("Naveen");
+        int endposition=s1.indexOf('e',startposition);
+        //System.out.println(s1.substring(startposition));
+        System.out.println(s1.substring(startposition,endposition+2));
+
 
     }
 }
