@@ -31,15 +31,27 @@ public class StringExamples {
         System.out.println(s3.equals(s4));
         System.out.println(s3.equalsIgnoreCase(s4));*/
 
-        System.out.println(s1.indexOf("Naveen"));
+        /*System.out.println(s1.indexOf("Naveen"));
         System.out.println(s1.indexOf('e'));
         int position=s1.indexOf('e');
         System.out.println(position);
         int startposition=s1.indexOf("Naveen");
         int endposition=s1.indexOf('e',startposition);
         //System.out.println(s1.substring(startposition));
-        System.out.println(s1.substring(startposition,endposition+2));
+        System.out.println(s1.substring(startposition,endposition+2));*/
 
+        /*String name="purnachandhu";
+        char[] ch=name.toCharArray();
+        System.out.println(ch.length);
+        System.out.println(ch[0]);
+        System.out.println(ch[ch.length-1]);*/
 
+        String name="I love my India";
+
+        String[] splittedstring=name.split(" ");
+        System.out.println(splittedstring[0]);
+        System.out.println(splittedstring[1]);
+        System.out.println(splittedstring[2]);
+        System.out.println(splittedstring[3]);
     }
 }
