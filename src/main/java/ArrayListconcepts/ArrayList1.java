@@ -13,6 +13,7 @@ public class ArrayList1 {
         obj.add(20);
         obj.add(30);
         obj.add("Naveen");
+        obj.add(10);
         System.out.println(obj);
         System.out.println(obj.size());
         //retrieving elements in to the arraylist
@@ -34,6 +35,7 @@ public class ArrayList1 {
         linknames.add("Srinivas");
         linknames.add("Suhasini");
         linknames.add("cb");
+        System.out.println(linknames.contains("cb"));
         int count=linknames.size();
         for(int i=0;i<=count-1;i++){
             System.out.println(linknames.get(i));
